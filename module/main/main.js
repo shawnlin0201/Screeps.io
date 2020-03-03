@@ -22,6 +22,7 @@ module.exports.loop = function () {
             {align: 'left', opacity: 0.8});
     }
 
+// harvester controller
     for(var name in Game.creeps) {
         var creep = Game.creeps[name];
         roleHarvester.run(creep);
