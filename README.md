@@ -4,6 +4,7 @@ Screeps.script is a collection of scrpis for [Screeps](https://screeps.com/).
 
 
 # Script List
-- Role
-  - harvester
-  - upgrader
+- Module
+  - Role
+    - harvester
+    - upgrader
