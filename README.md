@@ -1,4 +1,4 @@
 # Screeps.script
-Screeps.script is a collection of scrpis for Screeps.
+Screeps.script is a collection of scrpis for [Screeps](https://screeps.com/).
 
-[Screeps](https://screeps.com/)
+
