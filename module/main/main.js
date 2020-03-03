@@ -14,8 +14,10 @@ module.exports.loop = function () {
 // Auto generate harvesters
     var harvesters = _.filter(Game.creeps, (creep) => creep.memory.role == 'harvester');
     console.log('Harvesters: ' + harvesters.length);
+    
+    var limitHarvesters = 3
 
-    if(harvesters.length < 2) {
+    if(harvesters.length < limitHarvesters) {
         var newName = 'Harvester' + Game.time;
         console.log('Spawning new harvester: ' + newName);
         Game.spawns['Spawn1'].spawnCreep([WORK,CARRY,MOVE], newName,
