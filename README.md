@@ -8,3 +8,4 @@ Screeps.script is a collection of scrpis for [Screeps](https://screeps.com/).
   - Role
     - harvester
     - upgrader
+    - builder
